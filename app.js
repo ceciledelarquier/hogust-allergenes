@@ -1,7 +1,7 @@
 const { useState, useEffect } = React;
 
 // Backend API Client
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://hogust-allergenes.onrender.com';
 
 const callBackendAPI = async (fileContent, isImage = false) => {
     console.log("Calling Hogust Backend API", { isImage });
